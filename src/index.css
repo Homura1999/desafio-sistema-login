@@ -1,0 +1,72 @@
+/* Reseta as margens padrão do navegador e define uma fonte moderna */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* O corpo da página: Fundo cinza bem claro e centraliza o conteúdo */
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* O nosso "Root" do React vai agir como um container central */
+#root {
+  width: 100%;
+  max-width: 400px; /* Largura máxima das telas de login/cadastro */
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px; /* Cantos arredondados */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 20px;
+}
+
+/* Títulos */
+h2, h3 {
+  color: #1a73e8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilização dos Inputs (Campos de texto) */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Quando o usuário clica no input, a borda fica azul */
+input:focus {
+  border-color: #1a73e8;
+}
+
+/* Estilização dos Botões */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse por cima do botão */
+button:hover {
+  background-color: #1557b0;
+}
